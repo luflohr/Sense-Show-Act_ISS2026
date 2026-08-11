@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sense, Show, Act — Workshop at ACM ISS 2026</title>
+<meta name="description" content="Sense, Show, Act: a half-day ACM ISS 2026 workshop on placement-aware sensing, visualization, and interaction on interactive surfaces. Call for Participation open — submission deadline Sep 15, 2026.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 fill=%22%230a0a08%22/><rect x=%223%22 y=%223%22 width=%224%22 height=%224%22 fill=%22%23ffb238%22/><rect x=%229%22 y=%229%22 width=%224%22 height=%224%22 fill=%22%23ffb238%22/></svg>">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="#top" aria-label="Sense, Show, Act — home">
+      <span class="wordmark-px">Sense</span><span class="wordmark-dot">,</span>
+      <span class="wordmark-px">Show</span><span class="wordmark-dot">,</span>
+      <span class="wordmark-px">Act</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#cfp">Call&nbsp;for&nbsp;Participation</a>
+      <a href="#dates">Dates</a>
+      <a href="#organizers">Organizers</a>
+      <a class="nav-cta" href="#cfp">Submit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-photo" aria-hidden="true">
+      <img src="img/sense-prototype.png" alt="">
+    </div>
+    <div class="wrap hero-inner">
+      <p class="eyebrow">ACM ISS 2026 · Half&#8209;Day Workshop </p>
+      <h1 class="hero-title">Sense, Show, Act</h1>
+      <p class="hero-subtitle">Placement-Aware Sensing, Visualization, and Interaction on Interactive Surfaces</p>
+      <p class="lede">
+        ACM Interactive Surfaces and Spaces (ISS) 2026 &nbsp;·&nbsp; Nov 22, 2026 &nbsp;·&nbsp;
+        Turin, Italy
+        <!-- PLACEHOLDER: replace with confirmed ISS 2026 host city / venue -->
+        <!--<span class="placeholder-inline">[LOCATION_PLACEHOLDER]</span>-->
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#cfp">Submit to the workshop</a>
+        <a class="btn btn-ghost" href="#about">About the workshop</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="eyebrow">About the workshop</p>
+      <h2 class="section-title">Three strands: position-aware sensing, visualization, &amp; interaction</h2>
+      <!--<p class="lede">Interactive surfaces need to know <em>what</em> is placed on them, and <em>how</em>. Sensing, visualization, and interaction each answer part of that question  – but are usually designed in isolation, by separate research communities.</p>-->
+
+      <p class="lede">Interactive surfaces and spaces increasingly need to know <em>what</em> objects are placed on or near them and <em>where</em> and <em>how</em> they sit – and to turn that knowledge into meaningful interaction. This challenge spans three tightly coupled strands: <em>placement-aware sensing</em> of object type, position, and orientation via hardware-, marker-, or vision-based approaches; <em>placement-aware visualization</em> through displays, light, projection, or XR, anchored to physical objects; and <em>placement-aware interaction</em>, in which placing, moving, altering, and removing objects are deliberate activities. Choices in any one strand constrain the other two. </p>
+
+      <div class="loop-block">
+        <div class="loop-graphic">
+          <img src="img/loop-teaser.svg" alt="Diagram of the Sense, Show, Act cycle: Sense detects object type, position and orientation; Show renders situated output anchored to objects; Act treats placement itself as the interaction. The three connect in a continuous loop, framed by responsible research &amp; innovation and life-centered design.">
+        </div>
+
+        <ul class="loop-legend">
+          <li><span class="loop-key">Sense</span> capacitive &amp; conductive markers, RFID/NFC tags, camera-based vision etc. – knowing what's placed, and where.</li>
+          <li><span class="loop-key">Show</span> on-display rendering, projection, ambient light, XR etc. – anchoring output to physical objects.</li>
+          <li><span class="loop-key">Act</span> placing, nudging, rotating, stacking, removing etc.  – placement itself as the interaction.</li>
+        </ul>
+      </div>
+
+      <p class="lede lede-tight">This half-day workshop brings together researchers and practitioners across all three strands to jointly map the design space of placement-aware interactive surfaces and to explore novel techniques. Through position papers, hands-on demos, and structured ideation combining insight harvesting/combination with design studio techniques under lifecycle constraints, participants will develop application concepts, identify open challenges, and initiate collaborations toward a shared research agenda, published proceedings, novel methods, and cross-community follow-up projects.</p>
+
+      <div class="topic-chips">
+        <p class="topic-chips-label">Exemplary Domains</p>
+        <ul class="chip-list">
+          <li>Kitchens</li>
+          <li>Makerspaces</li>
+          <li>Museums</li>
+          <li>In-vehicle systems</li>
+          <li>Control rooms</li>
+          <li>Board games</li>
+          <li>…</li>
+        </ul>
+      </div>
+<!--
+      <figure class="prototype-figure">
+        <img src="img/sense-prototype.jpg" alt="A 3D-printed grid of interlocking blocks with dark conductive comb-like circuit patterns embossed into their surfaces, used to sense which object is placed in which socket." loading="lazy" width="1400" height="1132">
+        <figcaption>One technique we'll discuss: 3D-printed conductive circuits that sense which object is placed where  – no batteries, no cameras.</figcaption>
+      </figure>
+-->
+      <div class="goals">
+        <h3 class="goals-title">Workshop goals</h3>
+        <ol class="goals-list">
+          <li>Discussing an integrated design space across sensing, visualization &amp; interaction</li>
+          <li>Identify open research challenges at the seams between the strands</li>
+          <li>Generate cross-disciplinary application concepts through structured ideation</li>
+          <li>Initiate lasting collaborations and follow-up work</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALL FOR PARTICIPATION ============ -->
+  <section class="section cfp" id="cfp">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-invert">Call for Participation</p>
+      <h2 class="section-title cfp-title">Submit to the workshop</h2>
+      <p class="lede cfp-lede">We invite (a) position papers and (b) short technical or work-in-progress papers, or (c) demo abstracts of 1-4 pages, encouraging participants to bring prototypes, printed objects, sensing rigs, or visualization demos. 
+        <br /> Submissions should address at least one focus area – placement-aware sensing, visualization, or interaction, including XR scenarios in which physical placement shapes augmented, mixed, or virtual experiences – and are encouraged to reflect on lifecycle, sustainability, or more-than-human implications.
+        <br /> At least one author of each accepted submission must register for the conference and attend the workshop. We aim to gather about 15 – 20 participants from diverse areas.
+      </p>
+      <div class="cfp-cards">
+        <article class="cfp-card">
+          <p class="cfp-card-kicker">Category A</p>
+          <h3>Position papers</h3>
+          <p>2&ndash;4 pages, excl. references &middot; single-column ACM format</p>
+        </article>
+        <article class="cfp-card">
+          <p class="cfp-card-kicker">Category B</p>
+          <h3>Short / work-in-progress papers</h3>
+          <p>2&ndash;4 pages, excl. references &middot; single-column ACM format</p>
+        </article>
+        <article class="cfp-card">
+          <p class="cfp-card-kicker">Category C</p>
+          <h3>Demo abstracts</h3>
+          <p>1&ndash;2 pages &middot; bring prototypes, sensing rigs, or visualization demos</p>
+        </article>
+      </div>
+
+      <div class="cfp-submit">
+        <div class="cfp-submit-text">
+          <p class="cfp-submit-label">How to submit</p>
+          <p>Email your PDF submission to:</p>
+        </div>
+        <!-- PLACEHOLDER: replace with the real workshop submission address -->
+        <button class="email-chip" id="emailChip" type="button" data-email="smart-interactive-media@th-rosenheim.de" aria-label="Copy submission email address to clipboard">
+          <code>smart-interactive-media@th-rosenheim.de</code>
+          <span class="email-chip-action" id="emailChipAction">Copy</span>
+        </button>
+      </div>
+
+      <div class="cfp-footer">
+        <div class="deadline-badge">
+          <span class="deadline-badge-label">Submission deadline</span>
+          <span class="deadline-badge-date">Sep 15, 2026</span>
+        </div>
+        <p class="cfp-note">Accepted papers are planned for open-access publication – e.g., via CEUR Workshop Proceedings, arXiv, or similar – subject to author consent.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DATES ============ -->
+  <section class="section" id="dates">
+    <div class="wrap">
+      <p class="eyebrow">Important Dates</p>
+      <h2 class="section-title">Timeline</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-date">Aug 12, 2026</span>
+          <span class="timeline-milestone">Website &amp; call live</span>
+        </li>
+        <li class="timeline-item timeline-item-highlight">
+          <span class="timeline-date">Sep 22, 2026</span>
+          <span class="timeline-milestone">Submission deadline  – short papers &amp; demos</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Sep 30, 2026</span>
+          <span class="timeline-milestone">Notification to authors</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Oct 30, 2026</span>
+          <span class="timeline-milestone">Camera-ready due</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Nov 9, 2026</span>
+          <span class="timeline-milestone">Pre-workshop reading package sent</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Nov 22, 2026</span>
+          <span class="timeline-milestone">Workshop day</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FORMAT (compact strip) ============ -->
+  <section class="format-strip" id="format" aria-label="Workshop format">
+    <div class="wrap format-strip-inner">
+      <div class="format-item">
+        <span class="format-icon" aria-hidden="true">&#9635;</span>
+        <p>Half-day, in-person workshop with about 15 – 20 participants</p>
+      </div>
+      <div class="format-item">
+        <span class="format-icon" aria-hidden="true">&#9679;</span>
+        <p>Short talks &amp; demos lay the foundation for a structured ideation process</p>
+      </div>
+      <div class="format-item">
+        <span class="format-icon" aria-hidden="true">&#9650;</span>
+        <p>Held on Nov 22, 2026 – the day before the main ACM ISS 2026 conference</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ORGANIZERS ============ -->
+  <section class="section" id="organizers">
+    <div class="wrap">
+      <p class="eyebrow">Organizers</p>
+      <h2 class="section-title">Who's behind it</h2>
+
+      <ul class="organizer-grid">
+        <li class="organizer-card">
+          <p class="organizer-name">Lukas A. Flohr</p>
+          <p class="organizer-affil">Professor of Interactive Media Production at TH Rosenheim, Germany</p>
+        </li>
+        <li class="organizer-card">
+          <p class="organizer-name">Julia Dominiak</p>
+          <p class="organizer-affil">Assistant Professor at Lodz University of Technology, Poland &amp; NAWA Bekker Programme fellow at TU Wien, Austria</p>
+        </li>
+        <li class="organizer-card">
+          <p class="organizer-name">Julian Rasch</p>
+          <p class="organizer-affil">Researcher and PhD Student at the Media Informatics Group at LMU Munich, Germany</p>
+        </li>
+        <li class="organizer-card">
+          <p class="organizer-name">Bastian Pfleging</p>
+          <p class="organizer-affil">Professor for Ubiquitous Computing and Smart Systems at TU Bergakademie Freiberg, Germany</p>
+        </li>
+        <li class="organizer-card">
+          <p class="organizer-name">Paweł W. Woźniak</p>
+          <p class="organizer-affil">Professor for Human-Computer Interaction and Head of a research unit at TU Wien, Austria</p>
+        </li>
+        <li class="organizer-card">
+          <p class="organizer-name">Sebastian S. Feger</p>
+          <p class="organizer-affil">Professor and Director of the study program Smart Interactive Media at TH Rosenheim, Germany</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <p class="footer-title">Sense, Show, Act</p>
+      <p class="footer-sub">A workshop at ACM Interactive Surfaces and Spaces (ISS) 2026</p>
+      <p class="footer-legal"><a href="impressum.html">Impressum &amp; Privacy Policy</a></p>
+    </div>
+    <div class="footer-contact">
+      <!-- PLACEHOLDER: replace with the real workshop submission address -->
+      <a href="mailto:smart-interactive-media@th-rosenheim.de">smart-interactive-media@th-rosenheim.de</a>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
