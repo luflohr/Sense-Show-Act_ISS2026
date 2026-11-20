@@ -489,6 +489,8 @@ code { font-family: var(--font-display); }
 
 .cfp-title { color: var(--accent-contrast); }
 .cfp-lede { color: var(--accent-contrast-muted); max-width: 62ch; }
+.cfp-lede a { color: var(--accent-contrast); text-decoration: underline; text-underline-offset: 3px; }
+.cfp-lede a:hover, .cfp-lede a:focus-visible { text-decoration-thickness: 2px; }
 
 .cfp-cards {
   display: grid;
