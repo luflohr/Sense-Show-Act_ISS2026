@@ -647,7 +647,7 @@ p.cfp-card-kicker {
 }
 .schedule-item {
   display: grid;
-  grid-template-columns: 108px 1fr auto;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 18px;
   padding: 14px 4px;
